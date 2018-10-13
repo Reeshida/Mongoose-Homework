@@ -1,0 +1,9 @@
+<h1>Home Page!</h1>
+<div id ="notes"></div>
+
+{{#each articles}}
+
+<h1 data-id={{this._id}} class="articleTitle">{{this.title}}</h1>
+<h1>{{this._id}}</h1>
+
+{{/each}}
